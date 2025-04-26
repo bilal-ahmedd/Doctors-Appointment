@@ -1,0 +1,17 @@
+/****** Importing Tailwind Support ********/
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.active li {
+    @apply text-primary;
+}
+
+::-webkit-scrollbar {
+    @apply hidden;
+}
+
+.size-3xl {
+    font-size: 36px;
+}
+
